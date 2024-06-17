@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jhrw9XPq7fg=",
+  "dgSpecHash": "iD7RugGrRL8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigproyect\\SuperChampiniones\\SuperChampiniones.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

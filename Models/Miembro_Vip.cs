@@ -6,7 +6,7 @@ namespace SuperChampiniones.Models
 {
     public class Miembro_Vip
     {
-        [Key]
+        [Key] //llave primaria
         public int Id { get; set; }
         [Required,MinLength(3)]
         public string? Nombre { get; set; }

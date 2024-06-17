@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\SIS 2420\\codigproyect\\SuperChampiniones\\SuperChampiniones.csproj": {}
+    "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\SIS 2420\\codigproyect\\SuperChampiniones\\SuperChampiniones.csproj": {
+    "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\SIS 2420\\codigproyect\\SuperChampiniones\\SuperChampiniones.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
         "projectName": "SuperChampiniones",
-        "projectPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigproyect\\SuperChampiniones\\SuperChampiniones.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigproyect\\SuperChampiniones\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
