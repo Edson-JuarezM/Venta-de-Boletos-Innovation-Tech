@@ -1,0 +1,12 @@
+# Archivos y directorios específicos de Visual Studio
+.vs/
+*.suo
+*.cache
+*.pdb
+
+# Directorios generados automáticamente
+bin/
+obj/
+
+# Otros archivos específicos que deseas ignorar
+secret_config.json
