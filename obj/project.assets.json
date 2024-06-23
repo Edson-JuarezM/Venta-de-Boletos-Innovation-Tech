@@ -6646,19 +6646,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Edson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
+      "projectUniqueName": "C:\\proyecto\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
       "projectName": "SuperChampiniones",
-      "projectPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\obj\\",
+      "projectPath": "C:\\proyecto\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+      "packagesPath": "C:\\Users\\Edson\\.nuget\\packages\\",
+      "outputPath": "C:\\proyecto\\Venta-de-Boletos-Innovation-Tech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Edson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6666,7 +6666,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6730,7 +6729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

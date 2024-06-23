@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SuperChampiniones.Models
 {
@@ -12,8 +14,15 @@ namespace SuperChampiniones.Models
         public string? EquipoB { get; set; }
 
         public DateTime? Fecha_Hora { get; set; }
-        public string? UrlEscudA { get; set; }
-        public string? UrlEscudB { get; set; }
+        public string? UrlEscudoA { get; set; }
+        public string? UrlEscudoB { get; set; }
+        //para archivos
+        [NotMapped]
+        [Display (Name ="Cargar Escudo 1")]
+        public IFormFile? EscudoFile1 { get; set; }
+        [NotMapped]
+        [Display(Name = "Cargar Escudo 2")]
+        public IFormFile? EscudoFile2 { get; set; }
         public virtual List<Venta>? Ventas { get; set; }
     }
 }
