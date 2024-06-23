@@ -2,30 +2,34 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Packaging.Signing;
 using SuperChampiniones.Contexto;
 using SuperChampiniones.Models;
 
 namespace SuperChampiniones.Controllers
 {
-    public class PartidoesController : Controller
+    public class PartidoController : Controller
     {
         private readonly MyContext _context;
+        IWebHostEnvironment _webHostEnvironment;
 
-        public PartidoesController(MyContext context)
+        public PartidoController(MyContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment; ;
         }
 
-        // GET: Partidoes
+        // GET: Partido
         public async Task<IActionResult> Index()
         {
             return View(await _context.Partido.ToListAsync());
         }
 
-        // GET: Partidoes/Details/5
+        // GET: Partido/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,19 +47,26 @@ namespace SuperChampiniones.Controllers
             return View(partido);
         }
 
-        // GET: Partidoes/Create
+        // GET: Partido/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Partidoes/Create
+        // POST: Partido/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,EquipoA,EquipoB,Fecha_Hora,UrlEscudA,UrlEscudB")] Partido partido)
+        public async Task<IActionResult> Create([Bind("Id,EquipoA,EquipoB,Fecha_Hora,EscudoFile1,EscudoFile2")] Partido partido)
         {
+
+
+            if (partido.EscudoFile1 != null && partido.EscudoFile2 != null)
+            {
+                await GuardarImagen(partido);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(partido);
@@ -65,7 +76,7 @@ namespace SuperChampiniones.Controllers
             return View(partido);
         }
 
-        // GET: Partidoes/Edit/5
+        // GET: Partido/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,12 +92,12 @@ namespace SuperChampiniones.Controllers
             return View(partido);
         }
 
-        // POST: Partidoes/Edit/5
+        // POST: Partido/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,EquipoA,EquipoB,Fecha_Hora,UrlEscudA,UrlEscudB")] Partido partido)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,EquipoA,EquipoB,Fecha_Hora,EscudoFile1,EscudoFile2")] Partido partido)
         {
             if (id != partido.Id)
             {
@@ -97,6 +108,9 @@ namespace SuperChampiniones.Controllers
             {
                 try
                 {
+                    if (partido.EscudoFile1!= null && partido.EscudoFile2!=null) {
+                        await GuardarImagen(partido);
+                    }
                     _context.Update(partido);
                     await _context.SaveChangesAsync();
                 }
@@ -116,7 +130,43 @@ namespace SuperChampiniones.Controllers
             return View(partido);
         }
 
-        // GET: Partidoes/Delete/5
+        private async Task GuardarImagen(Partido partido)
+        {
+            if (partido.EscudoFile1 == null || partido.EscudoFile2 == null)
+            {
+                throw new ArgumentNullException("Los archivos de imagen no pueden ser nulos.");
+            }
+
+            // Formar el nombre de la foto
+            string wwwRootPath = _webHostEnvironment.WebRootPath;
+            string extension1 = Path.GetExtension(partido.EscudoFile1.FileName);
+            string extension2 = Path.GetExtension(partido.EscudoFile2.FileName);
+            string nameFoto1 = $"{partido.Id}_{partido.EquipoA}{extension1}";
+            string nameFoto2 = $"{partido.Id}_{partido.EquipoB}{extension2}";
+
+            partido.UrlEscudoA = nameFoto1;
+            partido.UrlEscudoB = nameFoto2;
+
+            // Ruta donde se guardarán las imágenes
+            string path1 = Path.Combine(wwwRootPath, "escudos", nameFoto1);
+            string path2 = Path.Combine(wwwRootPath, "escudos", nameFoto2);
+
+            // Copiar las fotos en el proyecto
+            using (var fileStream1 = new FileStream(path1, FileMode.Create))
+            {
+                await partido.EscudoFile1.CopyToAsync(fileStream1);
+            }
+
+            using (var fileStream2 = new FileStream(path2, FileMode.Create))
+            {
+                await partido.EscudoFile2.CopyToAsync(fileStream2);
+            }
+        }
+
+
+
+
+        // GET: Partido/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -134,7 +184,7 @@ namespace SuperChampiniones.Controllers
             return View(partido);
         }
 
-        // POST: Partidoes/Delete/5
+        // POST: Partido/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -1,7 +1,7 @@
 ﻿@model SuperChampiniones.Models.Partido
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Borrar";
 }
 
 <h1>Delete</h1>
@@ -30,22 +30,22 @@
             @Html.DisplayFor(model => model.Fecha_Hora)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UrlEscudA)
+            @Html.DisplayNameFor(model => model.UrlEscudoA)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UrlEscudA)
+            @Html.DisplayFor(model => model.UrlEscudoA)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UrlEscudB)
+            @Html.DisplayNameFor(model => model.UrlEscudoB)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UrlEscudB)
+            @Html.DisplayFor(model => model.UrlEscudoB)
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Borrar" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>
 </div>

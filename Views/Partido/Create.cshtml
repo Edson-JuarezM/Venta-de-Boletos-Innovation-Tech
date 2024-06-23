@@ -1,0 +1,81 @@
+﻿@model SuperChampiniones.Models.Partido
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .champions-league-background {
+            background: linear-gradient(to right, #1d2671, #c33764); 
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .champions-league-background h1, 
+        .champions-league-background h4, 
+        .champions-league-background label, 
+        .champions-league-background input[type="submit"], 
+        .champions-league-background a {
+            color: white;
+        }
+
+        .champions-league-background input[type="text"], 
+        .champions-league-background input[type="datetime-local"], 
+        .champions-league-background input[type="file"] {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="champions-league-background">
+        <h1>Create</h1>
+
+        <h4>Partido</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="EquipoA" class="control-label"></label>
+                        <input asp-for="EquipoA" class="form-control" />
+                        <span asp-validation-for="EquipoA" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EquipoB" class="control-label"></label>
+                        <input asp-for="EquipoB" class="form-control" />
+                        <span asp-validation-for="EquipoB" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Fecha_Hora" class="control-label"></label>
+                        <input asp-for="Fecha_Hora" class="form-control" />
+                        <span asp-validation-for="Fecha_Hora" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EscudoFile1" class="control-label"></label>
+                        <input asp-for="EscudoFile1" class="form-control" accept="image/*" />
+                        <span asp-validation-for="EscudoFile1" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EscudoFile2" class="control-label"></label>
+                        <input asp-for="EscudoFile2" class="form-control" accept="image/*" />
+                        <span asp-validation-for="EscudoFile2" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Crear" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</body>
+</html>
+
