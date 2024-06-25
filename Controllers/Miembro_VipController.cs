@@ -54,10 +54,11 @@ namespace SuperChampiniones.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Ci,Celular,Saldo")] Miembro_Vip miembro_Vip)
+        public async Task<IActionResult> Create([Bind("Id,Nombre,Ci,Celular,FechaRegistro,Saldo")] Miembro_Vip miembro_Vip)
         {
             if (ModelState.IsValid)
             {
+                miembro_Vip.FechaRegistro = DateTime.Now;
                 _context.Add(miembro_Vip);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -86,7 +87,7 @@ namespace SuperChampiniones.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Ci,Celular,Saldo")] Miembro_Vip miembro_Vip)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Ci,Celular,FechaRegistro,Saldo")] Miembro_Vip miembro_Vip)
         {
             if (id != miembro_Vip.Id)
             {
@@ -143,9 +144,8 @@ namespace SuperChampiniones.Controllers
             if (miembro_Vip != null)
             {
                 _context.Miembro_Vip.Remove(miembro_Vip);
+                await _context.SaveChangesAsync();
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

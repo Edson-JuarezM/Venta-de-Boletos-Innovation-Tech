@@ -1,46 +1,100 @@
 ﻿@model SuperChampiniones.Models.Miembro_Vip
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Edit</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SuperChampiniones</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #0074D9; /* Color de fondo azul suave */
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
 
-<h4>Miembro_Vip</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label.control-label {
+            font-weight: bold;
+        }
+
+        input[type="submit"].btn-primary {
+            background-color: #28a745; /* Botón de guardar verde */
+            border-color: #28a745;
+        }
+
+        input[type="submit"].btn-primary:hover {
+            background-color: #218838; /* Hover más oscuro */
+            border-color: #218838;
+        }
+
+        hr {
+            border-top: 2px solid #000000; /* Línea horizontal más gruesa y negra */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h1>Editar</h1>
+
+            <h4>Miembro VIP</h4>
+            <hr />
+
+            <div class="row">
+                <div class="col-md-4">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <div class="form-group">
+                            <label asp-for="Nombre" class="control-label"></label>
+                            <input asp-for="Nombre" class="form-control" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Ci" class="control-label"></label>
+                            <input asp-for="Ci" class="form-control" />
+                            <span asp-validation-for="Ci" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Celular" class="control-label"></label>
+                            <input asp-for="Celular" class="form-control" autocomplete="off" />
+                            <span asp-validation-for="Celular" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FechaRegistro" class="control-label"></label>
+                            <input asp-for="FechaRegistro" class="form-control" type="datetime-local" value="@Model.FechaRegistro.ToString("yyyy-MM-ddTHH:mm")" />
+                            <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Saldo" class="control-label"></label>
+                            <input asp-for="Saldo" class="form-control" />
+                            <span asp-validation-for="Saldo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Guardar" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Ci" class="control-label"></label>
-                <input asp-for="Ci" class="form-control" />
-                <span asp-validation-for="Ci" class="text-danger"></span>
+
+            <div>
+                <a asp-action="Index">Regresar a la Lista</a>
             </div>
-            <div class="form-group">
-                <label asp-for="Celular" class="control-label"></label>
-                <input asp-for="Celular" class="form-control" />
-                <span asp-validation-for="Celular" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Saldo" class="control-label"></label>
-                <input asp-for="Saldo" class="form-control" />
-                <span asp-validation-for="Saldo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+        </main>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

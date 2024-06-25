@@ -1,42 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\",
+  "WorkspaceRootPath": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\models\\miembro_vip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\models\\miembro_vip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:models\\miembro_vip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\users\\hp\\documents\\sis 2420\\codigo\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\controllers\\miembro_vipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:controllers\\miembro_vipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\migrations\\20240624172803_addfecharegistrotomiembrovip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:migrations\\20240624172803_addfecharegistrotomiembrovip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\migrations\\20240624173921_fixcelularvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:migrations\\20240624173921_fixcelularvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,24 +88,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Details.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Details.cshtml",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAgwFsAAAAAAAAA",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Details.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Details.cshtml",
+              "RelativeToolTip": "Views\\Miembro_Vip\\Details.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAwGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T03:17:20.576Z",
+              "WhenOpened": "2024-06-24T16:54:39.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Edit.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Edit.cshtml*",
+              "RelativeToolTip": "Views\\Miembro_Vip\\Edit.cshtml*",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEoAAACiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T16:53:13.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Delete.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Delete.cshtml",
               "RelativeToolTip": "Views\\Usuarios\\Delete.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAgwF8AAAAAAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAQwF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-18T03:15:43.258Z",
               "EditorCaption": ""
@@ -81,87 +126,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Create.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Create.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Create.cshtml",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAgwGEAAAAAAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T03:13:41.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T01:40:37.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T00:43:37.076Z",
+              "WhenOpened": "2024-06-18T03:17:20.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAUwIkAAAAAAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Delete.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Miembro_Vip\\Delete.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAQwGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T00:32:48.274Z",
+              "WhenOpened": "2024-06-25T01:13:37.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Miembro_Vip.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Models\\Miembro_Vip.cs",
-              "RelativeDocumentMoniker": "Models\\Miembro_Vip.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Models\\Miembro_Vip.cs",
-              "RelativeToolTip": "Models\\Miembro_Vip.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T18:52:22.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Edit.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuarios\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Edit.cshtml",
               "RelativeToolTip": "Views\\Usuarios\\Edit.cshtml",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAUwGwAAAAAAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAQwGwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-18T01:23:10.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Index.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Index.cshtml",
+              "RelativeToolTip": "Views\\Miembro_Vip\\Index.cshtml",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAwJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T17:47:13.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAQwIkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T00:32:48.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Create.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Create.cshtml",
+              "RelativeToolTip": "Views\\Miembro_Vip\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T16:47:43.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Miembro_Vip.cs",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Models\\Miembro_Vip.cs",
+              "RelativeDocumentMoniker": "Models\\Miembro_Vip.cs",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Models\\Miembro_Vip.cs",
+              "RelativeToolTip": "Models\\Miembro_Vip.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T18:52:22.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T03:13:41.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Miembro_VipController.cs",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Controllers\\Miembro_VipController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Miembro_VipController.cs",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Controllers\\Miembro_VipController.cs",
+              "RelativeToolTip": "Controllers\\Miembro_VipController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAuwJoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T16:15:57.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240624172803_AddFechaRegistroToMiembroVip.cs",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240624172803_AddFechaRegistroToMiembroVip.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240624172803_AddFechaRegistroToMiembroVip.cs",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240624172803_AddFechaRegistroToMiembroVip.cs",
+              "RelativeToolTip": "Migrations\\20240624172803_AddFechaRegistroToMiembroVip.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T17:28:04.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240624173921_FixCelularValidation.cs",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240624173921_FixCelularValidation.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240624173921_FixCelularValidation.cs",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240624173921_FixCelularValidation.cs",
+              "RelativeToolTip": "Migrations\\20240624173921_FixCelularValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T17:39:21.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T01:40:37.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T00:43:37.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Models\\Usuario.cs",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\Models\\Usuario.cs",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Models\\Usuario.cs",
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -6646,19 +6646,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
+      "projectUniqueName": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
       "projectName": "SuperChampiniones",
-      "projectPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\SuperChampiniones.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\SIS 2420\\codigo\\obj\\",
+      "projectPath": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
