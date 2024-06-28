@@ -7,10 +7,41 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SuperChampiniones.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #1A237E, #0D47A1, #1976D2);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-shadow: 1px 1px 2px #000;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: #0D47A1;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #FFD700 !important;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #0D47A1;
+            color: #FFD700;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SuperChampiniones</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -20,16 +51,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Partido" asp-action="Index">Partidos</a>
+                            <a class="nav-link" asp-area="" asp-controller="Partido" asp-action="Index">Partidos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuario</a>
+                            <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuario</a>
                         </li>
                     </ul>
                 </div>
@@ -44,7 +75,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - SuperChampiniones - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - SuperChampiniones - <a asp-area="" asp-controller="Home" asp-action="Privacy" style="color: #FFD700;">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
