@@ -14,7 +14,7 @@ namespace SuperChampiniones.Models
         [Column(TypeName ="date")]
         public DateTime? Fecha { get; set; }
         public int UsuarioId { get; set; }
-        public int Mimbro_VipId { get; set; }
+        public int Miembro_VipId { get; set; }
         public int PartidoId { get; set; }
         
         public virtual Usuario? Usuario { get; set; }
