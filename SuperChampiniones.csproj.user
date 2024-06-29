@@ -14,11 +14,8 @@
     <View_SelectedScaffolderID>RazorViewScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/Common/MVC/View</View_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>650,4</WebStackScaffolding_ViewDialogWidth>
-<<<<<<< HEAD
     <NameOfLastUsedPublishProfile>G:\PROYECTO SIS2420 B\Venta-de-Boletos-Innovation-Tech\Properties\PublishProfiles\innovationtech-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
-=======
     <WebStackScaffolding_LayoutPageFile />
->>>>>>> 8f3b356e9d22714df4233c9f62cbe2975748831a
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
