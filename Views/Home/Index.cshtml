@@ -2,7 +2,64 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+        background: linear-gradient(135deg, #1A237E, #0D47A1, #1976D2);
+        color: white;
+        font-family: Arial, sans-serif;
+        text-shadow: 1px 1px 2px #000;
+        padding: 20px;
+    }
+
+    .content {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .history {
+        margin-bottom: 20px;
+    }
+
+    .side-images {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+        .side-images img {
+            width: 30%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+    a {
+        color: #FFD700;
+    }
+</style>
+
+<div class="content">
+    <h1 class="display-4 text-center">Bienvenido</h1>
+    <div class="history">
+        <h2>Historia de la Champions League</h2>
+        <p>
+            La UEFA Champions League, conocida hasta 1992 como la Copa de Europa, es una competición anual de fútbol organizada por la Unión de Asociaciones Europeas de Fútbol (UEFA) y disputada por clubes europeos. Es una de las competiciones de fútbol más prestigiosas del mundo y la más prestigiosa a nivel de clubes en Europa.
+        </p>
+        <p>
+            La competición se fundó en 1955 bajo el nombre de Copa de Europa por el periodista deportivo francés Gabriel Hanot, quien pidió a la UEFA que organizara un torneo oficial de fútbol entre los campeones de las diferentes ligas nacionales de Europa. El primer torneo se celebró en la temporada 1955-56, y el Real Madrid ganó los primeros cinco títulos consecutivos.
+        </p>
+        <p>
+            A lo largo de las décadas, la Champions League ha visto competir a los mejores clubes de Europa y ha sido testigo de algunos de los momentos más icónicos del fútbol. Equipos como el Real Madrid, AC Milan, Liverpool, Bayern Múnich y Barcelona han dejado una huella indeleble en la historia de la competición.
+        </p>
+    </div>
+
+    <div class="side-images">
+        <img src="https://s.france24.com/media/display/822b933a-cab5-11e9-9245-005056bf87d6/w:980/p:16x9/uefa_champions_league_0.jpg" alt="Imagen 1">
+        <img src="https://st1.uvnimg.com/5c/d8/543d39bf443e9bcaee1b6033423e/campeones-champions-league.jpeg" alt="Imagen 2">
+        <img src="https://i.pinimg.com/originals/5a/64/fb/5a64fb9c4aafb6d2ccd0f74b3902fe4e.jpg" alt="Imagen 3">
+    </div>
 </div>
+

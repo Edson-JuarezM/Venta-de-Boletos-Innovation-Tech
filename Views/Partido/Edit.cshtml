@@ -1,0 +1,89 @@
+﻿@model SuperChampiniones.Models.Partido
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .champions-league-background {
+            background-image: url('https://wallpapers.com/images/hd/uefa-champions-league-football-club-trophy-1w0nb9jvfxvqe3js.jpg'); 
+            background-position: center;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+            .champions-league-background h1,
+            .champions-league-background h4,
+            .champions-league-background label,
+            .champions-league-background input[type="submit"],
+            .champions-league-background a {
+                color: white;
+            }
+
+            .champions-league-background input[type="text"],
+            .champions-league-background input[type="datetime-local"],
+            .champions-league-background input[type="file"] {
+                color: black;
+            }
+
+            .champions-league-background .form-control {
+                background-color: rgba(255, 255, 255, 0.8); 
+                border: 1px solid white;
+            }
+    </style>
+</head>
+<body>
+    <div class="champions-league-background">
+        <h1>Edit</h1>
+
+        <h4>Partido</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="Edit" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group">
+                        <label asp-for="EquipoA" class="control-label"></label>
+                        <input asp-for="EquipoA" class="form-control" />
+                        <span asp-validation-for="EquipoA" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EquipoB" class="control-label"></label>
+                        <input asp-for="EquipoB" class="form-control" />
+                        <span asp-validation-for="EquipoB" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Fecha_Hora" class="control-label"></label>
+                        <input asp-for="Fecha_Hora" class="form-control" />
+                        <span asp-validation-for="Fecha_Hora" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EscudoFile1" class="control-label"></label>
+                        <input asp-for="EscudoFile1" class="form-control" accept="image/*" />
+                        <span asp-validation-for="EscudoFile1" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="EscudoFile2" class="control-label"></label>
+                        <input asp-for="EscudoFile2" class="form-control" accept="image/*" />
+                        <span asp-validation-for="EscudoFile2" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
