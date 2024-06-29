@@ -90,10 +90,10 @@
                             @Html.DisplayFor(modelItem => item.Fecha_Hora)
                         </td>
                         <td>
-                            <img src="@item.UrlEscudoA" alt="Escudo A" style="width: 50px; height: 50px;" />
+                            <img src="/escudos/@item.UrlEscudoA" alt="Escudo A" style="width: 50px; height: 50px;" />
                         </td>
                         <td>
-                            <img src="@item.UrlEscudoB" alt="Escudo B" style="width: 50px; height: 50px;" />
+                            <img src="/escudos/@item.UrlEscudoB" alt="Escudo B" style="width: 50px; height: 50px;" />
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

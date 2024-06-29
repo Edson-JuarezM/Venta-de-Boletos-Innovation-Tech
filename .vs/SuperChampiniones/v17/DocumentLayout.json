@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240629193234_Correccion_partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\partido\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\partido\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -34,6 +42,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240629193234_Correccion_partido.cs",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240629193234_Correccion_partido.cs",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs",
+              "RelativeToolTip": "Migrations\\20240629193234_Correccion_partido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:32:36.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Partido\\Index.cshtml",
+              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Index.cshtml",
+              "RelativeToolTip": "Views\\Partido\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T19:20:39.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Ventas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Ventas\\Index.cshtml",
@@ -46,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SuperChampiniones.csproj.user",
               "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user",
               "RelativeDocumentMoniker": "SuperChampiniones.csproj.user",
@@ -59,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -72,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
