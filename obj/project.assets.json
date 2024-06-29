@@ -6646,19 +6646,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Edson\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\proyecto\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
       "projectName": "SuperChampiniones",
-      "projectPath": "C:\\proyecto\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
-      "packagesPath": "C:\\Users\\Edson\\.nuget\\packages\\",
-      "outputPath": "C:\\proyecto\\Venta-de-Boletos-Innovation-Tech\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Edson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6729,7 +6729,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
