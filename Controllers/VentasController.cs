@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -51,15 +49,14 @@ namespace SuperChampiniones.Controllers
         {
             ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA");
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
+            ViewData["Sector"] = new SelectList(Enum.GetValues(typeof(SectorEnum)));
             return View();
         }
 
         // POST: Ventas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Mimbro_VipId,PartidoId")] Venta venta)
+        public async Task<IActionResult> Create([Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Miembro_VipId,PartidoId")] Venta venta)
         {
             if (ModelState.IsValid)
             {
@@ -87,15 +84,14 @@ namespace SuperChampiniones.Controllers
             }
             ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA", venta.PartidoId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", venta.UsuarioId);
+            ViewData["Sector"] = new SelectList(Enum.GetValues(typeof(SectorEnum)), venta.Sector);
             return View(venta);
         }
 
         // POST: Ventas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Mimbro_VipId,PartidoId")] Venta venta)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Miembro_VipId,PartidoId")] Venta venta)
         {
             if (id != venta.Id)
             {
@@ -124,6 +120,7 @@ namespace SuperChampiniones.Controllers
             }
             ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA", venta.PartidoId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", venta.UsuarioId);
+            ViewData["Sector"] = new SelectList(Enum.GetValues(typeof(SectorEnum)), venta.Sector);
             return View(venta);
         }
 

@@ -11,8 +11,6 @@
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="NroRecibo" class="control-label"></label>
                 <input asp-for="NroRecibo" class="form-control" />
@@ -20,7 +18,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Sector" class="control-label"></label>
-                <input asp-for="Sector" class="form-control" />
+                <select asp-for="Sector" class="form-control" asp-items="ViewBag.Sector"></select>
                 <span asp-validation-for="Sector" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -34,9 +32,9 @@
                 <span asp-validation-for="UsuarioId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Mimbro_VipId" class="control-label"></label>
-                <input asp-for="Mimbro_VipId" class="form-control" />
-                <span asp-validation-for="Mimbro_VipId" class="text-danger"></span>
+                <label asp-for="Miembro_VipId" class="control-label"></label>
+                <input asp-for="Miembro_VipId" class="form-control" />
+                <span asp-validation-for="Miembro_VipId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="PartidoId" class="control-label"></label>
@@ -54,3 +52,6 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

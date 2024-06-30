@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8SU3Dk1VmVPBF0SZUMotP8H63lDGlRTqEGa5iXn3vcYKpzb95EqjBHReYYgr3w3+w9dGsu2S4oakZL3uqT2hbA==",
+  "dgSpecHash": "/Hloyo4dAhJW/ADQc/q2FUEbHwHQqs0VEVN/wOKWe0jeQLOaN/HgBKvTRH+PLhAAdan4qKo/+9sC4qJqgwXhJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

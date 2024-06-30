@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
         "projectName": "SuperChampiniones",
-        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\Venta-de-Boletos-Innovation-Tech\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
