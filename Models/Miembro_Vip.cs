@@ -13,8 +13,11 @@ namespace SuperChampiniones.Models
 
         [Required,MinLength(7),MaxLength(8)]
         public string? Ci { get; set; }
-        [Required,MinLength(8)]
+        [Required]
         public int? Celular { get; set; }
+
+        [Display(Name = "Fecha de Registro")]
+        public DateTime FechaRegistro { get; set; }
 
         public decimal Saldo { get; set; }
 
