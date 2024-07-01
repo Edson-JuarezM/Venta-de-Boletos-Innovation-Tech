@@ -84,8 +84,6 @@ namespace SuperChampiniones.Controllers
             {
                 try
                 {
-                    venta.NroRecibo=GetNumero();
-                    _context.Add(venta);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
@@ -113,12 +111,7 @@ namespace SuperChampiniones.Controllers
 
             return View(venta);
         }
-        private int GetNumero()
-        {
-            if (_context.Ventas.ToList().Count > 0)
-                return _context.Ventas.Max(i=>i.NroRecibo)+1;
-            return 1;
-        }
+        
         public async Task<IActionResult> Indexx()
     {
         var ventas = await _context.Ventas
