@@ -50,8 +50,7 @@
               "RelativeToolTip": "Views\\Login\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T02:16:15.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T02:16:15.426Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Views\\Ventas\\Create.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAB4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T01:56:42.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T01:56:42.448Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Views\\Ventas\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T01:59:46.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T01:59:46.417Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Controllers\\VentasController.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAYwHEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T02:00:22.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T02:00:22.711Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Models\\Venta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:31:36.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T13:31:36.59Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Views\\Ventas\\Delete.cshtml",
               "ViewState": "AQIAACIAAAAAAAAAAAAYwDAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T02:05:40.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T02:05:40.283Z"
             }
           ]
         }
