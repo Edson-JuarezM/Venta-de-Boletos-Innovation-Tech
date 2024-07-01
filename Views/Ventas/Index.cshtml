@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<SuperChampiniones.Models.Venta>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Ventas";
 }
 
 <h1>Ventas</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Registrar Nueva Venta</a>
 </p>
 <table class="table">
     <thead>
@@ -22,13 +22,10 @@
                 @Html.DisplayNameFor(model => model.Fecha)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Miembro_VipId)
+                @Html.DisplayNameFor(model => model.Usuario.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Usuario!.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Partido!.EquipoA)
+                @Html.DisplayNameFor(model => model.Partido.EquipoA)
             </th>
             <th></th>
         </tr>
@@ -47,16 +44,14 @@
                     @Html.DisplayFor(modelItem => item.Fecha)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Miembro_VipId)
+                    @Html.DisplayFor(modelItem => item.Usuario.Email)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Usuario!.Email)
+                    @Html.DisplayFor(modelItem => item.Partido.EquipoA)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Partido!.EquipoA)
                 <td>
                     <a asp-action="Details" asp-route-id="@item.Id">Recibo</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
                 </td>
             </tr>
         }

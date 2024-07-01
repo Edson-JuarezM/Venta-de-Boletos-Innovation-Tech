@@ -1,21 +1,19 @@
 ﻿@model SuperChampiniones.Models.Venta
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Registrar Venta";
 }
 
 <h1>Registrar Venta</h1>
+
+<h4>Venta</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>        
             <div class="form-group">
-                <label asp-for="NroRecibo" class="control-label"></label>
-                <input asp-for="NroRecibo" class="form-control" />
-                <span asp-validation-for="NroRecibo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Sector" class="control-label">Seleccione Sector</label>
+                <label asp-for="Sector" class="control-label"></label>
                 <select asp-for="Sector" class="form-control" asp-items="ViewBag.Sector"></select>
                 <span asp-validation-for="Sector" class="text-danger"></span>
             </div>
@@ -34,22 +32,20 @@
                 <input asp-for="Miembro_VipId" class="form-control" />
                 <span asp-validation-for="Miembro_VipId" class="text-danger"></span>
             </div>
-
-
             <div class="form-group">
                 <label asp-for="PartidoId" class="control-label"></label>
                 <select asp-for="PartidoId" class="form-control" asp-items="ViewBag.PartidoId"></select>
                 <span asp-validation-for="PartidoId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Registrar pago" class="btn btn-primary" />
+                <input type="submit" value="Registrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Volver a la lista</a>
 </div>
 
 @section Scripts {
