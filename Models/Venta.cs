@@ -18,9 +18,9 @@ namespace SuperChampiniones.Models
         public int? Miembro_VipId { get; set; }
         [Required]
         public int PartidoId { get; set; }
-        public Usuario Usuario { get; set; }
-        public Partido Partido { get; set; }
-        public Miembro_Vip Miembro_Vip { get; set; }
+        public Usuario? Usuario { get; set; }
+        public Partido? Partido { get; set; }
+        public Miembro_Vip? Miembro_Vip { get; set; }
     }
     public enum SectorEnum
     {
