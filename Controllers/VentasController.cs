@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using QRCoder;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using SuperChampiniones.Contexto;
 using SuperChampiniones.Models;
+using SuperChampiniones.Contexto;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace SuperChampiniones.Controllers
 {
@@ -45,86 +50,92 @@ namespace SuperChampiniones.Controllers
 
             return View(venta);
         }
+        public static Dictionary<SectorEnum, int> SectorPrices = new Dictionary<SectorEnum, int>
+        {
+            { SectorEnum.Preferencia, 100 },
+            { SectorEnum.General, 60 },
+            { SectorEnum.CurvaNorte, 50 },
+            { SectorEnum.CurvaSur, 30 }
+        };
+
+        public object Ventas { get; private set; }
 
         // GET: Ventas/Create
         public IActionResult Create()
         {
-            ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA");
+            var partidos = _context.Partido
+                .Select(p => new { p.Id, NombrePartido = $"{p.EquipoA} vs {p.EquipoB}" })
+                .ToList();
+
+            ViewData["PartidoId"] = new SelectList(partidos, "Id", "NombrePartido");
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
+            ViewData["MiembroVip"] = new SelectList(_context.Miembro_Vip, "Id", "Ci");
+            ViewData["Sector"] = new SelectList(
+                Enum.GetValues(typeof(SectorEnum)).Cast<SectorEnum>().Select(
+                    s => new { ID = s, Name = $"{s} - {SectorPrices[s]} Bs" }
+                ),
+                "ID",
+                "Name"
+            );
+
             return View();
         }
 
-        // POST: Ventas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // Método POST para procesar el formulario
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Mimbro_VipId,PartidoId")] Venta venta)
+        public async Task<IActionResult> Create([Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Miembro_VipId,PartidoId")] Venta venta)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(venta);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA", venta.PartidoId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", venta.UsuarioId);
-            return View(venta);
-        }
+                venta.NroRecibo = GetNumero();
 
-        // GET: Ventas/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var venta = await _context.Ventas.FindAsync(id);
-            if (venta == null)
-            {
-                return NotFound();
-            }
-            ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA", venta.PartidoId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", venta.UsuarioId);
-            return View(venta);
-        }
-
-        // POST: Ventas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Mimbro_VipId,PartidoId")] Venta venta)
-        {
-            if (id != venta.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
                 try
                 {
-                    _context.Update(venta);
+                    _context.Add(venta); // Agregar la entidad al contexto
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!VentaExists(venta.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    // Captura la excepción y muestra detalles
+                    ModelState.AddModelError(string.Empty, $"Error al guardar los cambios: {ex.Message} \n {ex.InnerException?.Message}");
                 }
-                return RedirectToAction(nameof(Index));
             }
-            ViewData["PartidoId"] = new SelectList(_context.Partido, "Id", "EquipoA", venta.PartidoId);
+
+            var partidos = _context.Partido
+                .Select(p => new { p.Id, NombrePartido = $"{p.EquipoA} vs {p.EquipoB}" })
+                .ToList();
+
+            ViewData["PartidoId"] = new SelectList(partidos, "Id", "NombrePartido", venta.PartidoId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", venta.UsuarioId);
+            ViewData["MiembroVip"] = new SelectList(_context.Miembro_Vip, "Id", "Ci", venta.Miembro_VipId);
+            ViewData["Sector"] = new SelectList(
+                Enum.GetValues(typeof(SectorEnum)).Cast<SectorEnum>().Select(
+                    s => new { ID = s, Name = $"{s} - {SectorPrices[s]} Bs" }
+                ),
+                "ID",
+                "Name",
+                venta.Sector
+            );
+
             return View(venta);
+        }
+
+        private int GetNumero()
+        {
+            if (_context.Ventas.ToList().Count > 0)
+                return _context.Ventas.Max(i => i.NroRecibo) + 1;
+            return 1;
+        }
+
+        public async Task<IActionResult> Indexx()
+        {
+            var ventas = await _context.Ventas
+                .Include(v => v.Partido)
+                .Include(v => v.Usuario)
+                .ToListAsync();
+            return View(ventas);
         }
 
         // GET: Ventas/Delete/5
@@ -166,5 +177,18 @@ namespace SuperChampiniones.Controllers
         {
             return _context.Ventas.Any(e => e.Id == id);
         }
+        /*public IActionResult GenerateQR(string qrText)
+        {
+            using (var qrGenerator = new QRCodeGenerator())
+            using (var qrCodeData = qrGenerator.CreateQrCode(qrText, QRCodeGenerator.ECCLevel.Q))
+            using (var qrCode = new QRCode(qrCodeData))
+            using (var bitmap = qrCode.GetGraphic(20))
+            using (var stream = new MemoryStream())
+            {
+                bitmap.Save(stream, ImageFormat.Png);
+                return File(stream.ToArray(), "image/png");
+            }
+        }*/
     }
+   
 }

@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SuperChampiniones.Contexto;
 
@@ -10,9 +11,11 @@ using SuperChampiniones.Contexto;
 namespace SuperChampiniones.Migrations
 {
     [DbContext(typeof(MyContext))]
-    partial class MyContextModelSnapshot : ModelSnapshot
+    [Migration("20240630040657_SupChamp")]
+    partial class SupChamp
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.6");
@@ -30,9 +33,6 @@ namespace SuperChampiniones.Migrations
                     b.Property<string>("Ci")
                         .IsRequired()
                         .HasMaxLength(8)
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("FechaRegistro")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nombre")
@@ -116,8 +116,7 @@ namespace SuperChampiniones.Migrations
                     b.Property<int>("NroRecibo")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("PartidoId")
-                        .IsRequired()
+                    b.Property<int>("PartidoId")
                         .HasColumnType("INTEGER");
 
                     b.Property<int?>("Sector")
