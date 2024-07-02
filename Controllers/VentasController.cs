@@ -18,12 +18,31 @@ namespace SuperChampiniones.Controllers
         {
             _context = context;
         }
+        public async Task<IActionResult> Reporte()
+        {
+            var ventas = await _context.Ventas.ToListAsync();
 
+            var reporteData = ventas
+                .GroupBy(v => new { v.Fecha.Value.Month, v.Fecha.Value.Year })
+                .Select(g => new ReporteViewModel
+                {
+                    Mes = g.Key.Month,
+                    Ventas = g.Count(),
+                    Total = g.Sum(v => v.Sector.HasValue ? SectorPrices[v.Sector.Value] : 0)
+                })
+                .ToList();
+
+            return View(reporteData);
+        }
         // GET: Ventas
         public async Task<IActionResult> Index()
         {
-            var myContext = _context.Ventas.Include(v => v.Partido).Include(v => v.Usuario);
-            return View(await myContext.ToListAsync());
+            var ventas = _context.Ventas
+                                 .Include(v => v.Miembro_Vip)
+                                 .Include(v => v.Usuario)
+                                 .Include(v => v.Partido)
+                                 .ToList();
+            return View(ventas);
         }
 
         // GET: Ventas/Details/5
@@ -33,11 +52,11 @@ namespace SuperChampiniones.Controllers
             {
                 return NotFound();
             }
-
             var venta = await _context.Ventas
-                .Include(v => v.Partido)
-                .Include(v => v.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                                  .Include(v => v.Miembro_Vip)
+                                  .Include(v => v.Usuario)
+                                  .Include(v => v.Partido)
+                                  .FirstOrDefaultAsync(m => m.Id == id);
             if (venta == null)
             {
                 return NotFound();
@@ -45,6 +64,7 @@ namespace SuperChampiniones.Controllers
 
             return View(venta);
         }
+
         public static Dictionary<SectorEnum, int> SectorPrices = new Dictionary<SectorEnum, int>
         {
             { SectorEnum.Preferencia, 100 },
@@ -52,8 +72,6 @@ namespace SuperChampiniones.Controllers
             { SectorEnum.CurvaNorte, 50 },
             { SectorEnum.CurvaSur, 30 }
         };
-
-        public object Ventas { get; private set; }
 
         // GET: Ventas/Create
         public IActionResult Create()
@@ -64,6 +82,7 @@ namespace SuperChampiniones.Controllers
 
             ViewData["PartidoId"] = new SelectList(partidos, "Id", "NombrePartido");
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email");
+            ViewData["MiembroVipId"] = new SelectList(_context.Miembro_Vip, "Id", "Ci");
             ViewData["Sector"] = new SelectList(
                 Enum.GetValues(typeof(SectorEnum)).Cast<SectorEnum>().Select(
                     s => new { ID = s, Name = $"{s} - {SectorPrices[s]} Bs" }
@@ -75,22 +94,24 @@ namespace SuperChampiniones.Controllers
             return View();
         }
 
-        // Método POST para procesar el formulario
+        // POST: Ventas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NroRecibo,Sector,Fecha,UsuarioId,Miembro_VipId,PartidoId")] Venta venta)
         {
             if (ModelState.IsValid)
             {
+                venta.NroRecibo = GetNumero();
+
                 try
                 {
+                    _context.Add(venta);
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
                 catch (Exception ex)
                 {
-                    // Manejo de la excepción para depuración
-                    ModelState.AddModelError(string.Empty, $"Error al guardar los cambios: {ex.Message}");
+                    ModelState.AddModelError(string.Empty, $"Error al guardar los cambios: {ex.Message} \n {ex.InnerException?.Message}");
                 }
             }
 
@@ -100,6 +121,7 @@ namespace SuperChampiniones.Controllers
 
             ViewData["PartidoId"] = new SelectList(partidos, "Id", "NombrePartido", venta.PartidoId);
             ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Email", venta.UsuarioId);
+            ViewData["MiembroVipId"] = new SelectList(_context.Miembro_Vip, "Id", "Ci", venta.Miembro_VipId);
             ViewData["Sector"] = new SelectList(
                 Enum.GetValues(typeof(SectorEnum)).Cast<SectorEnum>().Select(
                     s => new { ID = s, Name = $"{s} - {SectorPrices[s]} Bs" }
@@ -111,15 +133,15 @@ namespace SuperChampiniones.Controllers
 
             return View(venta);
         }
-        
-        public async Task<IActionResult> Indexx()
-    {
-        var ventas = await _context.Ventas
-            .Include(v => v.Partido)
-            .Include(v => v.Usuario)
-            .ToListAsync();
-        return View(ventas);
-    }
+        private int GetNumero()
+        {
+            if (_context.Ventas.Any())
+            {
+                return _context.Ventas.Max(i => i.NroRecibo) + 1;
+            }
+            return 1;
+        }
+
         // GET: Ventas/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

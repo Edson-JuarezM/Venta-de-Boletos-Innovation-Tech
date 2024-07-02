@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuperChampiniones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cdcfe87898b699ae992ac9418abfcfb874d46e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d00e9028f0bc4176cd62a31819060058d3a509eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuperChampiniones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuperChampiniones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

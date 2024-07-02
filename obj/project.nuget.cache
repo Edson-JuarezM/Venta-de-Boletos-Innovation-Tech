@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/Hloyo4dAhJW/ADQc/q2FUEbHwHQqs0VEVN/wOKWe0jeQLOaN/HgBKvTRH+PLhAAdan4qKo/+9sC4qJqgwXhJQ==",
+  "dgSpecHash": "MKroZCthbWL3/jj8YTAUsj+Cy4mJZ8my4xXyp8s14GgQinBW/Tow9Q5l4bzE88MJbzDUesz+mTgvIlPJIVt/gA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj",
   "expectedPackageFiles": [
@@ -110,6 +110,7 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\nuget.projectmodel\\6.9.1\\nuget.projectmodel.6.9.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\nuget.protocol\\6.9.1\\nuget.protocol.6.9.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\nuget.versioning\\6.9.1\\nuget.versioning.6.9.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",

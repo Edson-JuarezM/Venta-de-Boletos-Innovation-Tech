@@ -4,56 +4,128 @@
     ViewData["Title"] = "Ventas";
 }
 
-<h1>Ventas</h1>
-
-<p>
-    <a asp-action="Create">Registrar Nueva Venta</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NroRecibo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sector)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Usuario.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Partido.EquipoA)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.NroRecibo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Sector)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Fecha)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Usuario.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Partido.EquipoA)
-                </td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@item.Id">Recibo</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                </td>
-            </tr>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SuperChampiniones</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: #001f3f; /* Azul marino oscuro */
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
         }
-    </tbody>
-</table>
+
+        .table {
+            background-color: #0074D9; /* Azul más suave para la tabla */
+            color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 10px; /* Espacio arriba de la tabla */
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .table th, .table td {
+            border: 2px solid #000000; /* Borde negro de 2px */
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #0056b3; /* Color de fondo alternado para filas pares */
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        a.btn {
+            color: #ffffff;
+            background-color: ##28a745; /* Azul primario para botones */
+            border-color: #007bff;
+            padding: 5px 10px; /* Tamaño ligeramente más pequeño */
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 8px;
+            font-size: 14px; /* Tamaño de fuente reducido */
+        }
+
+        a.btn:hover {
+            background-color: #0056b3; /* Hover más oscuro */
+            border-color: #0056b3;
+        }
+
+        a.btn.btn-danger {
+            background-color: #dc3545; /* Botón de eliminar en rojo */
+            border-color: #dc3545;
+        }
+
+        a.btn.btn-danger:hover {
+            background-color: #c82333; /* Hover más oscuro para eliminar */
+            border-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h1>Ventas</h1>
+
+            <p>
+                <a class="btn btn-primary" asp-action="Create">Registrar Nueva Venta</a>
+                <a class="btn btn-secondary" asp-action="Reporte">Reporte de Ventas</a>
+            </p>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Número de Recibo</th>
+                        <th>Sector</th>
+                        <th>Fecha</th>
+                        <th>Correo Electrónico</th>
+                        <th>Miembro Vip Ci</th>
+                        <th>Equipo A</th>
+                        <th>Equipo B</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.NroRecibo)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Sector)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Usuario.Email)</td>
+                                    <td>@(item.Miembro_Vip != null ? item.Miembro_Vip.Ci : "")</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Partido.EquipoA)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Partido.EquipoB)</td>
+                                    <td>
+                                        <a class="btn btn-success" asp-action="Details" asp-route-id="@item.Id">Recibo</a>
+                                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                                    </td>
+                                </tr>
+                    }
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

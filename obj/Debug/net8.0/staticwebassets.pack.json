@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\wwwroot\\js\\qr-code-generator.js",
+      "PackagePath": "staticwebassets\\js\\qr-code-generator.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\wwwroot\\js\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\js\\qrcode.min.js"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\source\\repos\\Venta-de-Boletos-Innovation-Tech\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

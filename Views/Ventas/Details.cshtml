@@ -4,51 +4,122 @@
     Layout = null;
 }
 
-<h1>RECIBO</h1>
-<h4>Numero: @Html.DisplayFor(model => model.NroRecibo)</h4>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recibo de Venta</title>
+    <style>
+        .ticket {
+            width: 300px;
+            border: 1px solid black;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+        }
 
-<hr />
-<div>
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NroRecibo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NroRecibo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Sector)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Sector)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Miembro_VipId)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Miembro_VipId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Usuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Usuario!.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Partido)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Partido!.EquipoA)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+        .header {
+            text-align: center;
+        }
+
+        .details {
+            margin-top: 10px;
+        }
+
+            .details dt {
+                float: left;
+                clear: left;
+                width: 100px;
+                font-weight: bold;
+            }
+
+            .details dd {
+                float: left;
+                margin: 0 0 5px 0;
+            }
+
+        .match {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+            .logos img {
+                width: 50px;
+                height: 50px;
+            }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .qr-code {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket">
+        <div class="header">
+            <h1>Super Champiñones FC</h1>
+            <p>Dirección: Av. Siempre Viva 742</p>
+            <p>Teléfono: 12345678</p>
+            <p>Ticket Número: @Html.DisplayFor(model => model.NroRecibo)</p>
+        </div>
+        <hr />
+        <div class="details">
+            <dl>
+                <dt>Fecha:</dt>
+                <dd>@Html.DisplayFor(model => model.Fecha)</dd>
+                <dt>Sector:</dt>
+                <dd>@Html.DisplayFor(model => model.Sector)</dd>
+                <dt>Usuario:</dt>
+                <dd>@Html.DisplayFor(model => model.Usuario.Email)</dd>
+                <dt>Miembro VIP:</dt>
+                <dd>@(Model.Miembro_Vip != null ? Model.Miembro_Vip.Ci : "N/A")</dd>
+            </dl>
+            <div class="clearfix"></div>
+        </div>
+        <div class="match">
+            <h2>15 de Abril</h2>
+            <h2>16:30</h2>
+            <div class="logos">
+                <img src="@Url.Content("~/escudos/" + Model.Partido.UrlEscudoA)" alt="Logo equipo A">
+                <span>VS</span>
+                <img src="@Url.Content("~/escudos/" + Model.Partido.UrlEscudoB)" alt="Logo equipo B">
+            </div>
+            <h3>@Html.DisplayFor(model => model.Partido.EquipoA) vs @Html.DisplayFor(model => model.Partido.EquipoB)</h3>
+        </div>
+        <div class="details">
+            <p>Sector @Html.DisplayFor(model => model.Sector)</p>
+        </div>
+        <div class="qr-code">
+            <div id="qrcode"></div>
+        </div>
+        <div class="buttons">
+            <button onclick="window.print()">Imprimir</button>
+            <button onclick="window.location.href='@Url.Action("Index", "Ventas")'">Volver</button>
+        </div>
+    </div>
+    <script src="~/js/qrcode.min.js"></script>
+    <script>
+        var qrText = "Recibo No: @Model.NroRecibo, Fecha: @Model.Fecha, Usuario: @Model.Usuario.Email, Partido: @Model.Partido.EquipoA vs @Model.Partido.EquipoB";
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: qrText,
+            width: 128,
+            height: 128
+        });
+    </script>
+</body>
+</html>
