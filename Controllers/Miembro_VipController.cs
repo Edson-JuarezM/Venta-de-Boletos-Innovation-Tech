@@ -111,14 +111,6 @@ namespace SuperChampiniones.Controllers
                 {
                     // Log the detailed error message
                     var sqlException = ex.InnerException as SqliteException;
-                    if (sqlException != null && sqlException.SqliteErrorCode == 19)
-                    {
-                        ModelState.AddModelError(string.Empty, "Error de clave foránea. Asegúrate de que todos los datos referenciados existen.");
-                    }
-                    else
-                    {
-                        ModelState.AddModelError(string.Empty, "Ocurrió un error al actualizar los datos. Por favor, intenta nuevamente.");
-                    }
                     return View(miembro_Vip);
                 }
                 return RedirectToAction(nameof(Index));
