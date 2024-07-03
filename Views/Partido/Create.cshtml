@@ -1,81 +1,129 @@
 ﻿@model SuperChampiniones.Models.Partido
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear";
 }
 
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SuperChampiniones</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <style>
+        body {
+            background-color: #0074D9; /* Color de fondo azul suave */
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label.control-label {
+            font-weight: bold;
+        }
+
+        input[type="submit"].btn-primary {
+            background-color: #28a745; /* Botón de guardar verde */
+            border-color: #28a745;
+        }
+
+            input[type="submit"].btn-primary:hover {
+                background-color: #218838; /* Hover más oscuro */
+                border-color: #218838;
+            }
+
+        input[type="submit"].btn-danger {
+            background-color: #dc3545; /* Botón de eliminar rojo */
+            border-color: #dc3545;
+        }
+
+            input[type="submit"].btn-danger:hover {
+                background-color: #c82333; /* Hover más oscuro */
+                border-color: #c82333;
+            }
+
+        hr {
+            border-top: 2px solid #000000; /* Línea horizontal más gruesa y negra */
+        }
+
         .champions-league-background {
-            background: linear-gradient(to right, #1d2671, #c33764); 
+            background: linear-gradient(to right, #1d2671, #c33764);
             color: white;
             padding: 20px;
             border-radius: 10px;
         }
 
-        .champions-league-background h1, 
-        .champions-league-background h4, 
-        .champions-league-background label, 
-        .champions-league-background input[type="submit"], 
-        .champions-league-background a {
-            color: white;
-        }
+            .champions-league-background h1,
+            .champions-league-background h4,
+            .champions-league-background label,
+            .champions-league-background input[type="submit"],
+            .champions-league-background a {
+                color: white;
+            }
 
-        .champions-league-background input[type="text"], 
-        .champions-league-background input[type="datetime-local"], 
-        .champions-league-background input[type="file"] {
-            color: black;
-        }
+            .champions-league-background input[type="text"],
+            .champions-league-background input[type="datetime-local"],
+            .champions-league-background input[type="file"] {
+                color: black;
+            }
     </style>
 </head>
 <body>
-    <div class="champions-league-background">
-        <h1>Create</h1>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="champions-league-background">
+                <h1>Crear</h1>
 
-        <h4>Partido</h4>
-        <hr />
-        <div class="row">
-            <div class="col-md-4">
-                <form asp-action="Create" enctype="multipart/form-data">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-group">
-                        <label asp-for="EquipoA" class="control-label"></label>
-                        <input asp-for="EquipoA" class="form-control" />
-                        <span asp-validation-for="EquipoA" class="text-danger"></span>
+                <h4>Partido</h4>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <form asp-action="Create" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="EquipoA" class="control-label">Equipo A</label>
+                                <input asp-for="EquipoA" class="form-control" />
+                                <span asp-validation-for="EquipoA" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="EquipoB" class="control-label">Equipo B</label>
+                                <input asp-for="EquipoB" class="form-control" />
+                                <span asp-validation-for="EquipoB" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Fecha_Hora" class="control-label">Fecha y Hora</label>
+                                <input asp-for="Fecha_Hora" class="form-control" />
+                                <span asp-validation-for="Fecha_Hora" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="EscudoFile1" class="control-label">Escudo Equipo A</label>
+                                <input asp-for="EscudoFile1" class="form-control" accept="image/*" />
+                                <span asp-validation-for="EscudoFile1" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="EscudoFile2" class="control-label">Escudo Equipo B</label>
+                                <input asp-for="EscudoFile2" class="form-control" accept="image/*" />
+                                <span asp-validation-for="EscudoFile2" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Crear" class="btn btn-primary" />
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="EquipoB" class="control-label"></label>
-                        <input asp-for="EquipoB" class="form-control" />
-                        <span asp-validation-for="EquipoB" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Fecha_Hora" class="control-label"></label>
-                        <input asp-for="Fecha_Hora" class="form-control" />
-                        <span asp-validation-for="Fecha_Hora" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="EscudoFile1" class="control-label"></label>
-                        <input asp-for="EscudoFile1" class="form-control" accept="image/*" />
-                        <span asp-validation-for="EscudoFile1" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="EscudoFile2" class="control-label"></label>
-                        <input asp-for="EscudoFile2" class="form-control" accept="image/*" />
-                        <span asp-validation-for="EscudoFile2" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" value="Crear" class="btn btn-primary" />
-                    </div>
-                </form>
+                </div>
+
+                <div>
+                    <a asp-action="Index">Regresar a la Lista</a>
+                </div>
             </div>
-        </div>
-
-        <div>
-            <a asp-action="Index">Back to List</a>
-        </div>
+        </main>
     </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
