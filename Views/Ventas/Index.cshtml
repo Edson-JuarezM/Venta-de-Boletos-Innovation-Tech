@@ -17,6 +17,7 @@
             background-color: #001f3f; /* Azul marino oscuro */
             color: #ffffff;
             font-family: 'Arial', sans-serif;
+            padding-top: 20px; /* Aumentar el espacio superior */
         }
 
         .table {
@@ -25,20 +26,20 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             margin-top: 10px; /* Espacio arriba de la tabla */
-            max-width: 90%;
+            max-width: 95%; /* Ajustar el ancho máximo de la tabla */
             margin-left: auto;
             margin-right: auto;
         }
 
-        .table th, .table td {
-            border: 2px solid #000000; /* Borde negro de 2px */
-            padding: 10px;
-            vertical-align: middle;
-        }
+            .table th, .table td {
+                border: 2px solid #000000; /* Borde negro de 2px */
+                padding: 10px;
+                vertical-align: middle;
+            }
 
-        .table tbody tr:nth-child(even) {
-            background-color: #0056b3; /* Color de fondo alternado para filas pares */
-        }
+            .table tbody tr:nth-child(even) {
+                background-color: #0056b3; /* Color de fondo alternado para filas pares */
+            }
 
         h1 {
             font-size: 36px;
@@ -52,31 +53,35 @@
             margin-bottom: 10px;
         }
 
+        .btn-container {
+            display: flex; /* Utiliza flexbox para alinear los botones */
+            justify-content: space-between; /* Espacio uniforme entre los botones */
+        }
+
         a.btn {
             color: #ffffff;
-            background-color: ##28a745; /* Azul primario para botones */
-            border-color: #007bff;
+            background-color: #28a745; /* Botones verdes */
+            border-color: #28a745;
             padding: 5px 10px; /* Tamaño ligeramente más pequeño */
             border-radius: 5px;
             text-decoration: none;
-            margin-right: 8px;
             font-size: 14px; /* Tamaño de fuente reducido */
         }
 
-        a.btn:hover {
-            background-color: #0056b3; /* Hover más oscuro */
-            border-color: #0056b3;
-        }
+            a.btn:hover {
+                background-color: #218838; /* Hover más oscuro */
+                border-color: #218838;
+            }
 
-        a.btn.btn-danger {
-            background-color: #dc3545; /* Botón de eliminar en rojo */
-            border-color: #dc3545;
-        }
+            a.btn.btn-danger {
+                background-color: #dc3545; /* Botón de eliminar en rojo */
+                border-color: #dc3545;
+            }
 
-        a.btn.btn-danger:hover {
-            background-color: #c82333; /* Hover más oscuro para eliminar */
-            border-color: #c82333;
-        }
+                a.btn.btn-danger:hover {
+                    background-color: #c82333; /* Hover más oscuro para eliminar */
+                    border-color: #c82333;
+                }
     </style>
 </head>
 <body>
@@ -105,19 +110,21 @@
                 <tbody>
                     @foreach (var item in Model)
                     {
-                                <tr>
-                                    <td>@Html.DisplayFor(modelItem => item.NroRecibo)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Sector)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Usuario.Email)</td>
-                                    <td>@(item.Miembro_Vip != null ? item.Miembro_Vip.Ci : "")</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Partido.EquipoA)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Partido.EquipoB)</td>
-                                    <td>
-                                        <a class="btn btn-success" asp-action="Details" asp-route-id="@item.Id">Recibo</a>
-                                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
-                                    </td>
-                                </tr>
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.NroRecibo)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Sector)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Usuario.Email)</td>
+                            <td>@(item.Miembro_Vip != null ? item.Miembro_Vip.Ci : "")</td>
+                            <td>@Html.DisplayFor(modelItem => item.Partido.EquipoA)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Partido.EquipoB)</td>
+                            <td>
+                                <div class="btn-container">
+                                    <a class="btn btn-success" asp-action="Details" asp-route-id="@item.Id">Recibo</a>
+                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                                </div>
+                            </td>
+                        </tr>
                     }
                 </tbody>
             </table>
