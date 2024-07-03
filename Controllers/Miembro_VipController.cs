@@ -50,15 +50,14 @@ namespace SuperChampiniones.Controllers
         }
 
         // POST: Miembro_Vip/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Ci,Celular,FechaRegistro,Saldo")] Miembro_Vip miembro_Vip)
+        public async Task<IActionResult> Create([Bind("Id,Nombre,Ci,Celular")] Miembro_Vip miembro_Vip)
         {
             if (ModelState.IsValid)
             {
                 miembro_Vip.FechaRegistro = DateTime.Now;
+                miembro_Vip.Saldo = 0; // Inicializar el saldo a 0
                 _context.Add(miembro_Vip);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -83,8 +82,6 @@ namespace SuperChampiniones.Controllers
         }
 
         // POST: Miembro_Vip/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Ci,Celular")] Miembro_Vip miembro_Vip)
@@ -98,6 +95,17 @@ namespace SuperChampiniones.Controllers
             {
                 try
                 {
+                    // Obtenemos los valores originales de FechaRegistro y Saldo
+                    var miembroOriginal = await _context.Miembro_Vip.AsNoTracking().FirstOrDefaultAsync(m => m.Id == id);
+                    if (miembroOriginal == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // Mantenemos los valores originales de FechaRegistro y Saldo
+                    miembro_Vip.FechaRegistro = miembroOriginal.FechaRegistro;
+                    miembro_Vip.Saldo = miembroOriginal.Saldo;
+
                     _context.Update(miembro_Vip);
                     await _context.SaveChangesAsync();
                 }
@@ -153,6 +161,7 @@ namespace SuperChampiniones.Controllers
         {
             return _context.Miembro_Vip.Any(e => e.Id == id);
         }
+
         // GET: Miembro_Vip/Recargar/5
         public async Task<IActionResult> Recargar(int? id)
         {
@@ -202,6 +211,7 @@ namespace SuperChampiniones.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
         // GET: Miembro_Vip/GenerarListaPdf
         public async Task<IActionResult> GenerarLista()
         {
@@ -215,4 +225,3 @@ namespace SuperChampiniones.Controllers
         }
     }
 }
-
