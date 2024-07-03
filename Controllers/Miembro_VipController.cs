@@ -87,7 +87,7 @@ namespace SuperChampiniones.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Ci,Celular,FechaRegistro,Saldo")] Miembro_Vip miembro_Vip)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Ci,Celular")] Miembro_Vip miembro_Vip)
         {
             if (id != miembro_Vip.Id)
             {
@@ -153,5 +153,66 @@ namespace SuperChampiniones.Controllers
         {
             return _context.Miembro_Vip.Any(e => e.Id == id);
         }
+        // GET: Miembro_Vip/Recargar/5
+        public async Task<IActionResult> Recargar(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var miembro_Vip = await _context.Miembro_Vip.FindAsync(id);
+            if (miembro_Vip == null)
+            {
+                return NotFound();
+            }
+
+            return View(miembro_Vip);
+        }
+
+        // POST: Miembro_Vip/Recargar/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Recargar(int id, decimal montoRecarga)
+        {
+            var miembro_Vip = await _context.Miembro_Vip.FindAsync(id);
+            if (miembro_Vip == null)
+            {
+                return NotFound();
+            }
+
+            miembro_Vip.Saldo += montoRecarga;
+
+            try
+            {
+                _context.Update(miembro_Vip);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!Miembro_VipExists(miembro_Vip.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+        // GET: Miembro_Vip/GenerarListaPdf
+        public async Task<IActionResult> GenerarLista()
+        {
+            var listaMiembrosVip = await _context.Miembro_Vip.ToListAsync();
+            return View(listaMiembrosVip);
+            // Retornar una vista en PDF usando Rotativa
+            //return new ViewAsPdf("ListaMiembrosVipPdf", listaMiembrosVip)
+            //{
+            //    FileName = "Lista_Miembros_VIP.pdf"
+            //};
+        }
     }
 }
+

@@ -17,123 +17,131 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SuperChampiniones
 build_property.RootNamespace = SuperChampiniones
-build_property.ProjectDir = C:\Users\Usuario\source\repos\Venta-de-Boletos-Innovation-Tech\
+build_property.ProjectDir = G:\PROYECTO SIS2420 B\Venta-de-Boletos-Innovation-Tech\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\source\repos\Venta-de-Boletos-Innovation-Tech
+build_property.MSBuildProjectDirectory = G:\PROYECTO SIS2420 B\Venta-de-Boletos-Innovation-Tech
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Home/Index.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Home/Privacy.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Login/Index.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Create.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Delete.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Details.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Edit.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Index.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/GenerarLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcR2VuZXJhckxpc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Partido/Create.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Miembro_Vip/Recargar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWllbWJyb19WaXBcUmVjYXJnYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Partido/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Partido/Delete.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Partido/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Partido/Details.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Partido/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Partido/Edit.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Partido/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Partido/Index.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Partido/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlkb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Shared/Error.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Create.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Delete.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Details.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Edit.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Index.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Create.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Delete.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Details.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Index.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Reporte.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Ventas/Reporte.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXFJlcG9ydGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/_ViewImports.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/_ViewStart.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/source/repos/Venta-de-Boletos-Innovation-Tech/Views/Shared/_Layout.cshtml]
+[G:/PROYECTO SIS2420 B/Venta-de-Boletos-Innovation-Tech/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fmba29z8ho

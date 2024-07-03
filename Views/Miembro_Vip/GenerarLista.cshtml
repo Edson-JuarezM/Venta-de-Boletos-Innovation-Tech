@@ -1,0 +1,59 @@
+﻿@model List<SuperChampiniones.Models.Miembro_Vip>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lista de Miembros VIP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body onload="window.print()" onafterprint="history.back()">
+    <h1>Lista de Miembros VIP</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cédula de Identidad</th>
+                <th>Celular</th>
+                <th>Fecha de Registro</th>
+                <th>Saldo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var miembro in Model)
+            {
+                <tr>
+                    <td>@miembro.Nombre</td>
+                    <td>@miembro.Ci</td>
+                    <td>@miembro.Celular</td>
+                    <td>@miembro.FechaRegistro.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@miembro.Saldo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

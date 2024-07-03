@@ -1,7 +1,7 @@
 ﻿@model SuperChampiniones.Models.Miembro_Vip
 
 @{
-    ViewData["Title"] = "Editar";
+    ViewData["Title"] = "Recargar Saldo";
 }
 
 <!DOCTYPE html>
@@ -32,10 +32,10 @@
             border-color: #28a745;
         }
 
-        input[type="submit"].btn-primary:hover {
-            background-color: #218838; /* Hover más oscuro */
-            border-color: #218838;
-        }
+            input[type="submit"].btn-primary:hover {
+                background-color: #218838; /* Hover más oscuro */
+                border-color: #218838;
+            }
 
         hr {
             border-top: 2px solid #000000; /* Línea horizontal más gruesa y negra */
@@ -45,40 +45,28 @@
 <body>
     <div class="container">
         <main role="main" class="pb-3">
-            <h1>Editar</h1>
+            <h1>Recargar Saldo</h1>
 
-            <h4>Miembro VIP</h4>
+            <h4>Miembro VIP: @Model.Nombre</h4>
+            <p>Saldo Actual: @Model.Saldo</p>
             <hr />
 
             <div class="row">
                 <div class="col-md-4">
-                    <form asp-action="Edit">
+                    <form asp-action="Recargar" method="post">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <input type="hidden" asp-for="Id" />
                         <div class="form-group">
-                            <label asp-for="Nombre" class="control-label"></label>
-                            <input asp-for="Nombre" class="form-control" />
-                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                            <label for="montoRecarga" class="control-label">Monto a Recargar</label>
+                            <input type="number" id="montoRecarga" name="montoRecarga" class="form-control" />
+                            <span asp-validation-for="montoRecarga" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label asp-for="Ci" class="control-label"></label>
-                            <input asp-for="Ci" class="form-control" />
-                            <span asp-validation-for="Ci" class="text-danger"></span>
+                            <button type="submit" class="btn btn-primary">Aceptar</button>
                         </div>
-                        <div class="form-group">
-                            <label asp-for="Celular" class="control-label"></label>
-                            <input asp-for="Celular" class="form-control" autocomplete="off" />
-                            <span asp-validation-for="Celular" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" value="Guardar" class="btn btn-primary" />
-                        </div>
+                        @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary" })
                     </form>
                 </div>
-            </div>
-
-            <div>
-                <a asp-action="Index">Regresar a la Lista</a>
             </div>
         </main>
     </div>

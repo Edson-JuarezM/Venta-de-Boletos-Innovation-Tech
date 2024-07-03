@@ -20,8 +20,9 @@ namespace SuperChampiniones.Models
         public DateTime FechaRegistro { get; set; }
 
         public decimal Saldo { get; set; }
-
-        public virtual ICollection<Venta> Ventas { get; set; }
+        [NotMapped]
+        public decimal montoRecarga { get; set; }
+        public virtual List<Venta>? Ventas { get; set; } 
 
     }
 }
