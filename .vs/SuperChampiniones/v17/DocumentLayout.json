@@ -1,68 +1,96 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\",
+  "WorkspaceRootPath": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\controllers\\miembro_vipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\controllers\\miembro_vipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:controllers\\miembro_vipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\generarlista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\generarlista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\recargar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\recargar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\models\\miembro_vip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\models\\miembro_vip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:models\\miembro_vip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\contexto\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:contexto\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\migrations\\20240629193234_correccion_partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:migrations\\20240629193234_correccion_partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\partido\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\partido\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\partido\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\partido\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\partido\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\partido\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\partido\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\partido\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\partido\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\partido\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\partido\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\generarlista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\generarlista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\miembro_vip\\recargar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\miembro_vip\\recargar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:controllers\\partidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\contexto\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:contexto\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\migrations\\20240629193234_correccion_partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:migrations\\20240629193234_correccion_partido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SuperChampiniones.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|g:\\proyecto sis2420 b\\venta-de-boletos-innovation-tech\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|c:\\nueva carpeta (2)\\venta-de-boletos-innovation-tech\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{29542A1D-3C03-49BB-BFB3-5FC75B63F165}|SuperChampiniones.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -73,7 +101,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,24 +109,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GenerarLista.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\GenerarLista.cshtml",
-              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\GenerarLista.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\GenerarLista.cshtml",
-              "RelativeToolTip": "Views\\Miembro_Vip\\GenerarLista.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAB8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T02:56:12.935Z",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T05:19:15.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Delete.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Miembro_Vip\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T05:16:40.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Index.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Index.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Index.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Index.cshtml",
               "RelativeToolTip": "Views\\Miembro_Vip\\Index.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAFgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -107,63 +148,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Partido\\Index.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Index.cshtml",
+              "RelativeToolTip": "Views\\Partido\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T19:20:39.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Miembro_VipController.cs",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Controllers\\Miembro_VipController.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\Miembro_VipController.cs",
               "RelativeDocumentMoniker": "Controllers\\Miembro_VipController.cs",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Controllers\\Miembro_VipController.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\Miembro_VipController.cs",
               "RelativeToolTip": "Controllers\\Miembro_VipController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAmwGsAAAAoAAAA",
+              "ViewState": "AQIAALcAAAAAAAAAAAAIwN8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T00:36:45.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Miembro_Vip.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Models\\Miembro_Vip.cs",
+              "RelativeDocumentMoniker": "Models\\Miembro_Vip.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Models\\Miembro_Vip.cs",
+              "RelativeToolTip": "Models\\Miembro_Vip.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T00:01:10.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Partido\\Create.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Create.cshtml",
+              "RelativeToolTip": "Views\\Partido\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T05:16:45.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Partido\\Delete.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Partido\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T05:16:46.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Partido\\Edit.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Partido\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T05:16:49.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Partido\\Details.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Details.cshtml",
+              "RelativeToolTip": "Views\\Partido\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T05:16:48.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Edit.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Edit.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Edit.cshtml",
               "RelativeToolTip": "Views\\Miembro_Vip\\Edit.cshtml",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAE0AAAASAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAE0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T23:48:30.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Create.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Create.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Create.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Create.cshtml",
               "RelativeToolTip": "Views\\Miembro_Vip\\Create.cshtml",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEcAAAAYAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T22:27:30.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAEEAAAAAAAAAAAAAAE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T03:16:17.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T03:16:17.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Recargar.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Recargar.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Recargar.cshtml",
               "RelativeDocumentMoniker": "Views\\Miembro_Vip\\Recargar.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Recargar.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\Recargar.cshtml",
               "RelativeToolTip": "Views\\Miembro_Vip\\Recargar.cshtml",
               "ViewState": "AQIAADQAAAAAAAAAAAAiwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -172,118 +290,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Miembro_Vip.cs",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Models\\Miembro_Vip.cs",
-              "RelativeDocumentMoniker": "Models\\Miembro_Vip.cs",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Models\\Miembro_Vip.cs",
-              "RelativeToolTip": "Models\\Miembro_Vip.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T00:01:10.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VentasController.cs",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Controllers\\VentasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "Controllers\\VentasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:11:25.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MyContext.cs",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Contexto\\MyContext.cs",
-              "RelativeDocumentMoniker": "Contexto\\MyContext.cs",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Contexto\\MyContext.cs",
-              "RelativeToolTip": "Contexto\\MyContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T21:08:01.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20240629193234_Correccion_partido.cs",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240629193234_Correccion_partido.cs",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs",
-              "RelativeToolTip": "Migrations\\20240629193234_Correccion_partido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T19:32:36.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partido\\Index.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Partido\\Index.cshtml",
-              "RelativeToolTip": "Views\\Partido\\Index.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAIBJwEAAAABEAAAA",
+              "Title": "GenerarLista.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\GenerarLista.cshtml",
+              "RelativeDocumentMoniker": "Views\\Miembro_Vip\\GenerarLista.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Miembro_Vip\\GenerarLista.cshtml",
+              "RelativeToolTip": "Views\\Miembro_Vip\\GenerarLista.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T19:20:39.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Ventas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ventas\\Index.cshtml",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\Views\\Ventas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Ventas\\Index.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAADgvxgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T18:50:19.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SuperChampiniones.csproj.user",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user",
-              "RelativeDocumentMoniker": "SuperChampiniones.csproj.user",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user",
-              "RelativeToolTip": "SuperChampiniones.csproj.user",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-06-29T18:47:51.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": ".gitignore",
-              "DocumentMoniker": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "G:\\PROYECTO SIS2420 B\\Venta-de-Boletos-Innovation-Tech\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAEBAAAAAAAAAIBJwAAAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
-              "WhenOpened": "2024-06-29T14:55:00.705Z",
+              "WhenOpened": "2024-07-03T02:56:12.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "PartidoController.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\PartidoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PartidoController.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\PartidoController.cs",
+              "RelativeToolTip": "Controllers\\PartidoController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T05:11:29.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "Controllers\\VentasController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:11:25.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Contexto\\MyContext.cs",
+              "RelativeDocumentMoniker": "Contexto\\MyContext.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Contexto\\MyContext.cs",
+              "RelativeToolTip": "Contexto\\MyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T21:08:01.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240629193234_Correccion_partido.cs",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240629193234_Correccion_partido.cs",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Migrations\\20240629193234_Correccion_partido.cs",
+              "RelativeToolTip": "Migrations\\20240629193234_Correccion_partido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:32:36.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Ventas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ventas\\Index.cshtml",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\Views\\Ventas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ventas\\Index.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAADgvxgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T18:50:19.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SuperChampiniones.csproj.user",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user",
+              "RelativeDocumentMoniker": "SuperChampiniones.csproj.user",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\SuperChampiniones.csproj.user",
+              "RelativeToolTip": "SuperChampiniones.csproj.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-06-29T18:47:51.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Nueva carpeta (2)\\Venta-de-Boletos-Innovation-Tech\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAEBAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-06-29T14:55:00.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AQIAABAAAAAAAAAAAADgvxsAAAAZAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-29T14:46:24.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-29T14:46:24.674Z"
             }
           ]
         }
